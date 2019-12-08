@@ -4,8 +4,8 @@
   "description": "Fixing code that is broken due to the odd concept of time in code",
   "main": "index.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint --format codeframe .",
-    "test": "./node_modules/.bin/mocha ./tests.js"
+    "lint": "eslint --format codeframe .",
+    "test": "mocha ./tests.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,11 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.2.0",
-    "eslint": "^6.3.0",
+    "eslint": "^6.4.0",
     "mocha": "^6.2.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/stackeducation/order-book/issues"
+  },
+  "homepage": "https://github.com/stackeducation/order-book#readme"
 }
